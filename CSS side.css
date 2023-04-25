@@ -1,0 +1,60 @@
+header {
+  outline-style: solid;
+  background-color: burlywood;
+  opacity: 1;
+  
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: green;
+}
+
+body {
+  background-image: url("backgrd_img2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.carousel {
+  width:780px;
+  height: auto;
+  margin: auto;
+}
+
+.row {   
+  /* float: left; */
+  width: 50%;
+  margin: auto;
+  height: 50;
+
+}
